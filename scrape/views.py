@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 # Create your views here.
 def scrape_view(request):
-    PATH = 'C:\programs\chromedriver.exe'
+    PATH = 'chromedriver.exe'
     chrome_options = Options()
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
